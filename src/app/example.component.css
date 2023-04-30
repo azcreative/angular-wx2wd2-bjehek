@@ -1,0 +1,62 @@
+/* iOS places the subtitle above the title */
+ion-card-header.md {
+  display: flex;
+  flex-flow: column-reverse;
+  box-shadow: none;
+}
+ion-chip.ios {
+  display: flex;
+}
+ion-card.md {
+  background-color: #D6E8CE;
+  padding: 0.25rem;
+  margin: 6px;
+  border-radius: 8px;
+}
+ion-card-content {
+  font-size: 40px;
+  color: #003a05;
+}
+ion-chip.md {
+  margin: 4px;
+  font-size: smaller;
+  border: 1px solid #003A05; 
+}
+ion-tab-button.md {
+  font-size: x-small;
+}
+ion-header.md {
+  color: #003a05;
+  padding-bottom: 8px;
+}
+ion-accordion.md {
+  background-color: #f8f8f8;
+
+  border-color: #d9d9d9;
+  color: #333333;
+}
+
+ion-accordion-group {
+  display: grid;
+  align-items: baseline;
+  padding-top: 244px;
+}
+ion-item {
+  color: #333333;
+}
+ion-tab-button {
+  background-color: #E3EBF8;
+  color: #135AC5;
+}
+
+ion-tab-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin: 6px;
+
+}
+.header-md::after {
+  background-image: none;
+}

@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-row>
+    <ion-title>Hi Greg</ion-title>
+    <ion-icon name="document-outline" float="right"></ion-icon>
+    <ion-icon name="notifications-outline" float="right"></ion-icon>
+  </ion-row>
+</ion-header>
+
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Portfolio total</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    <strong> £452,657.98 </strong>
+  </ion-card-content>
+  <ion-chip [outline]="true">ISA</ion-chip>
+  <ion-chip>GIA</ion-chip>
+  <ion-chip>JISA</ion-chip>
+</ion-card>
+
+<ion-tabs>
+  <ion-router-outlet></ion-router-outlet>
+  <ion-row>
+    <ion-col>
+      <ion-accordion-group expand="inset">
+        <ion-accordion value="first">
+          <ion-item slot="header" color="light-contrast">
+            <ion-label>Scottish widows lump sum OEIC</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">
+            Scottish widows OEIC
+            <div></div>
+          </div>
+        </ion-accordion>
+        <ion-accordion value="second">
+          <ion-item slot="header" color="light-contrast">
+            <ion-label>Scottish widows OEIC</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Scottish widows OEIC</div>
+        </ion-accordion>
+        <ion-accordion value="third">
+          <ion-item slot="header" color="light-contrast">
+            <ion-label>Scottish OEIC</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Bonds</div>
+        </ion-accordion>
+        <ion-accordion value="fourth">
+          <ion-item slot="header" color="light-contrast">
+            <ion-label>Scottish OEIC</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Bonds</div>
+        </ion-accordion>
+        <ion-accordion value="fifth">
+          <ion-item slot="header" color="light-contrast">
+            <ion-label>Scottish OEIC</ion-label>
+          </ion-item>
+          <div class="ion-padding" slot="content">Bonds</div>
+        </ion-accordion>
+      </ion-accordion-group>
+    </ion-col>
+  </ion-row>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="apps-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="funds">
+      <ion-icon name="cash-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="transactions">
+      <ion-icon name="reload-circle-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="search">
+      <ion-icon name="search"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="help">
+      <ion-icon name="help-outline"></ion-icon>
+    </ion-tab-button>
+    <ion-tab-button tab="settings">
+      <ion-icon name="settings-outline"></ion-icon>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
