@@ -62,6 +62,10 @@ ion-tab-bar {
   opacity: .95
 
 }
+ion-tab-bar.md.hydrated {
+  background-color: none !important;
+  border: none;
+}
 .header-md::after {
   background-image: none;
 }
