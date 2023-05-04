@@ -14,9 +14,13 @@
   <ion-card-content>
     <strong> £452,657.98 </strong>
   </ion-card-content>
-  <ion-chip [outline]="true">ISA</ion-chip>
-  <ion-chip>GIA</ion-chip>
-  <ion-chip>JISA</ion-chip>
+    <ion-row>
+      <ion-col>
+        <ion-chip [outline]="true">ISA</ion-chip>
+        <ion-chip>GIA</ion-chip>
+        <ion-chip>JISA</ion-chip>
+      </ion-col>
+    </ion-row>
 </ion-card>
 
 <ion-tabs>
@@ -25,13 +29,13 @@
   
   <ion-row>
     <ion-col>
+      
       <ion-accordion-group expand="inset">
         <ion-accordion value="first">
           <ion-item slot="header" color="light-contrast">
             <ion-label>Scottish widows lump sum OEIC</ion-label> 
           </ion-item>
-          
-          <div class="ion-padding" slot="content">
+          <div class="ion-padding" slot="content" >
             <ion-row><ion-col><div class="card-content">13412738-0001 | £67,887.09</div></ion-col>
             </ion-row>
             <ion-row>
