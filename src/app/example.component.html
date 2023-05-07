@@ -11,14 +11,19 @@
     <ion-card-title>Portfolio total</ion-card-title>
   </ion-card-header>
 
-  <ion-card-content>
-    <strong> £452,657.98 </strong>
+  <ion-card-content class="total-wealth">
+    <ion-row>
+      <ion-col>
+       <strong> £452,657.98 </strong>
+      </ion-col>
+    </ion-row>
   </ion-card-content>
     <ion-row>
       <ion-col>
         <ion-chip [outline]="true">ISA</ion-chip>
         <ion-chip>GIA</ion-chip>
         <ion-chip>JISA</ion-chip>
+        <ion-button fill="clear" style="text-transform:none" size="small" color="success">More</ion-button>
       </ion-col>
     </ion-row>
 </ion-card>

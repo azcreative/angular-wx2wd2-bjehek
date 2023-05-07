@@ -5,13 +5,13 @@ ion-card-header.md {
   box-shadow: none;
 }
 ion-card-title {
-  color: #003A05;
+  color: #003a05;
 }
 ion-chip.ios {
   display: flex;
 }
 ion-card.md {
-  background-color: #D6E8CE;
+  background-color: #d6e8ce;
   padding: 0.25rem;
   margin: 6px;
   border-radius: 8px;
@@ -23,7 +23,7 @@ ion-card-content {
 ion-chip.md {
   margin: 4px;
   font-size: smaller;
-  border: 1px solid #003A05; 
+  border: 1px solid #003a05;
   color: #003a05;
 }
 ion-tab-button.md {
@@ -49,8 +49,8 @@ ion-item {
   color: #333333;
 }
 ion-tab-button {
-  background-color: #E3EBF8;
-  color: #135AC5;
+  background-color: #e3ebf8;
+  color: #135ac5;
 }
 
 ion-tab-bar {
@@ -59,8 +59,7 @@ ion-tab-bar {
   justify-content: center;
   border-radius: 30px;
   margin: 6px;
-  opacity: .95
-
+  opacity: 0.95;
 }
 ion-tab-bar.md.hydrated {
   background-color: none !important;
@@ -76,37 +75,37 @@ ion-chip.stats_1 {
   border: none;
   color: white;
   width: 100px;
-
 }
-ion-chip.stats_2{
-  background-color: #135AC5;
+ion-chip.stats_2 {
+  background-color: #135ac5;
   border-radius: 4px;
   border: none;
   color: white;
   width: 80px;
-  }
-ion-chip.stats_3{
+}
+ion-chip.stats_3 {
   background-color: #3f18cc;
   border-radius: 4px;
   border: none;
   color: white;
   width: 80px;
-  }
-ion-chip.stats_4{
+}
+ion-chip.stats_4 {
   background-color: #974583;
   border-radius: 4px;
   border: none;
   color: white;
   width: 40px;
-  }
+  
+}
 card-content {
   font-size: 16px;
   padding-bottom: 12px;
-  }
-ion-col.stat_label{
+}
+ion-col.stat_label {
   font-size: 10px;
   padding: 10px;
-  }
+}
 #list {
   width: 60px;
   margin: 8px;
@@ -125,18 +124,18 @@ li {
 }
 li.stat_1 {
   color: #a53131;
-
-
 }
 li.stat_2 {
-  color: #135AC5;
-
+  color: #135ac5;
 }
 li.stat_3 {
   color: #3f18cc;
-
 }
 li.stat_4 {
   color: #974583;
-
+}
+ion-card-content.total-wealth {
+  display: flex;
+  flex-flow: column-reverse;
+  box-shadow: none;
 }
