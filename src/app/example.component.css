@@ -96,7 +96,6 @@ ion-chip.stats_4 {
   border: none;
   color: white;
   width: 40px;
-  
 }
 card-content {
   font-size: 16px;
@@ -138,4 +137,10 @@ ion-card-content.total-wealth {
   display: flex;
   flex-flow: column-reverse;
   box-shadow: none;
+  color: #003a05;
+}
+ion-button.more-accounts {
+  color: #003a05;
+  padding-left: 116px;
+  padding-bottom: 8px;
 }
